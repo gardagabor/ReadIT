@@ -1,0 +1,28 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "npm serve and watch",
+            "type": "shell",
+            "command": "npm",
+            "args": [
+                "start"
+            ],
+            "isBackground": true,
+            "problemMatcher": [],
+            "group": {
+                "_id": "build",
+                "isDefault": false
+            }
+        },
+        {
+            "label": "npm install",
+            "type": "shell",
+            "command": "npm",
+            "args": [
+                "install"
+            ],
+            "problemMatcher": []
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "angular-kliens-oldali-technologiak",
+  "version": "0.0.0",
+  "dependencies": {
+    "@angular/animations": "4.0.1",
+    "@angular/common": "4.0.1",
+    "@angular/compiler": "4.0.1",
+    "@angular/core": "13.3.6",
+    "@angular/forms": "4.0.1",
+    "@angular/http": "4.0.1",
+    "@angular/platform-browser": "4.0.1",
+    "@angular/platform-browser-dynamic": "4.0.1",
+    "@angular/router": "4.0.1",
+    "angular-in-memory-web-api": "0.3.1",
+    "core-js": "2.4.1",
+    "lodash": "4.17.21",
+    "ng2-bootstrap": "1.6.1",
+    "rxjs": "5.3.0",
+    "systemjs": "0.20.11",
+    "zone.js": "0.8.5"
+  },
+  "devDependencies": {
+    "@types/systemjs": "0.20.2",
+    "@types/lodash": "4.14.61",
+    "typescript": "2.2.2",
+    "lite-server": "2.3.0",
+    "concurrently": "3.4.0"
+  },
+  "scripts": {
+    "all": "concurrently \"tsc -w -p .\" \"lite-server -c=bs-config.json\"",
+    "serve": "lite-server -c=bs-config.json",
+    "start": "concurrently \"npm run build:watch\" \"npm run serve\"",
+    "build:watch": "tsc -w -p ."
+  },
+  "repository": {},
+  "description": "Kliens oldali technológiák - Angular labor"
+}

@@ -1,0 +1,79 @@
+﻿a {
+    cursor: pointer;
+}
+
+.cards-list a {
+    display: block;
+    padding: 5px 8px;
+    border: 1px solid lightblue;
+    background: #EEEEFF;
+}
+.cards-list a.active h6 {
+    font-weight: bold;
+    color: #00AA00;
+}
+.cards-list a h6 {
+    font-size: 1.1em;
+}
+
+.company-list a {
+    display: block;
+    padding: 5px 8px;
+    border: 1px solid lightblue;
+    background: #EEEEFF;
+}
+.company-list a.active h6 {
+    font-weight: bold;
+    color: #00AA00;
+}
+.company-list a h6 {
+    font-size: 1.1em;
+}
+
+.current-card img.profile-picture {
+    max-width: 200px;
+    max-height: 200px;
+}
+button[disabled='disabled'] {
+    color: darkgrey !important;
+}
+.paging .page-numbers {
+    text-align: center;
+    line-height: 45px;
+}
+
+.flexbox-container-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flexbox-container-book{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.flexbox-item-list-element{
+    width:300px;
+    height: 200px;
+    margin:10px;
+    border: 3px solid #333;
+    background-color: #dfdfdf;
+}
+
+.flexbox-item-book-element{
+    width:125px;
+    height: 180px;
+    margin:10px;
+    border:3px solid #333;
+}
+
+.flexbox-item-book-element-picture{
+    background-color: #00AA00;
+}
+
+.flexbox-item-book-element-details{
+    background-color: #fcff517e;
+}
+
